@@ -1,0 +1,20 @@
+<?php
+
+namespace DpdApi\Service\Model;
+
+class validationStatusPGREnumV1
+{
+    const __default = 'OK';
+    const OK = 'OK';
+    const UNKNOWN_ERROR = 'UNKNOWN_ERROR';
+    const DB_ERROR = 'DB_ERROR';
+    const INCORRECT_DATA = 'INCORRECT_DATA';
+    const NOT_PROCESSED = 'NOT_PROCESSED';
+    const DUPLICATED_PACKAGE_SEARCH_KEY = 'DUPLICATED_PACKAGE_SEARCH_KEY';
+    const DUPLICATED_PARCEL_SEARCH_KEY = 'DUPLICATED_PARCEL_SEARCH_KEY';
+    const DISALLOWED_FID = 'DISALLOWED_FID';
+    const DUPLICATED_WAYBILL = 'DUPLICATED_WAYBILL';
+    const UNSUPPORTED_LANG_CODE = 'UNSUPPORTED_LANG_CODE';
+
+
+}

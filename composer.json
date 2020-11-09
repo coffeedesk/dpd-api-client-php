@@ -1,0 +1,17 @@
+{
+  "name": "coffeedesk/dpd-api-client-php",
+  "type": "library",
+  "description": "DPD Client",
+  "require": {
+    "php": ">=5.6",
+    "ext-soap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DpdApi\\": "src/"
+    }
+  },
+  "require-dev": {
+    "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+  }
+}
