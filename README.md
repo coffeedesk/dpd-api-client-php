@@ -10,7 +10,6 @@ composer require coffeedesk/dpd-api-client-php
 
 ## Usage
 It is good to always use the latest version of a given method.
-### Generate Waybills
 #### Generate packages numbers
 ```php
 <?php
